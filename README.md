@@ -1,4 +1,7 @@
 # restful-api
 Restful Api Design and Development
 
-Programming used #PYTHON
+Tools used:
+#PYTHON
+#Flask
+#Json
