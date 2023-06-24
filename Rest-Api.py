@@ -1,10 +1,12 @@
 import requests
 import json
 
+#THIS IS HOW WE CONSUME AN API
 response=requests.get('http://wethinkcode.co.za')
-print(response)
+data=response.json()['items']
 
-#remember we are using flask
-#we are also using Rest api 
+for item in data:
+    print(item)
 
-"""Make a api that gets all university names and all the courses they offer and use this api in live demo session of the actual app that you are building"""
+#THIS IS HOW WE MAKE AN API
+
